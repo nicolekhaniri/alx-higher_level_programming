@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/c/Users/HP/AppData/Local/Microsoft/WindowsApps/python3
 import random
 number = random.randint(-10000, 10000)
 number = str(number)
