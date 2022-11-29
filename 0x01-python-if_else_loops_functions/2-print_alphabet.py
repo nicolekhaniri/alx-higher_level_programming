@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-print("abcdefghijklmnopqrstuvwxyz".format(), end="")
+for alpha in range(ord('a'), ord('z') +1):
+    print("{:c}".format(alpha), end="")
