@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 for number in range(0, 100):
     if number >= 0 and number <= 9:
-        print(f"{str(number).zfill(2)}, ", end="")
-    elif number > 9 and number < 99:
-        print(f"{number}, ", end="")
+        print("{:d}".format(number).zfill(2), end=", ")
     else:
-        print(f"{number}")
+        print("{:d}".format(number))
