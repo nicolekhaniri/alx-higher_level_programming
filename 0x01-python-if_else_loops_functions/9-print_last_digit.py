@@ -4,5 +4,5 @@ def print_last_digit(number):
     last = (number[-1])
     last = int(last)
     number = int(last)
-    print(f"{last}", end="" )
+    print(f"{last}", end="")
     return last
