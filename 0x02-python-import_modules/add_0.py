@@ -9,9 +9,4 @@ def add(a, b):
     Returns:
         The return value. a + b
     """
-    def add(a, b):
-    a = int(a)
-    b = int(b)
-    sum = a + b
-    print("{:d} + {:d} = {:d}". format(a, b, sum)
     return (a + b)
