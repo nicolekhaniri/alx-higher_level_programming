@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-__import__("add_0.py")
+from add_0 import add()
 add()
