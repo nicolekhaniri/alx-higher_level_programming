@@ -7,12 +7,8 @@ if __name__ == "__main__":
     if add():
         print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
     elif sub():
-        print("{:d} + {:d} = {:d}".format(a, b, sub(a, b)))
+        print("{:d} - {:d} = {:d}".format(a, b, sub(a, b)))
     elif mul():
-        print("{:d} + {:d} = {:d}".format(a, b, mul(a, b)))
+        print("{:d} * {:d} = {:d}".format(a, b, mul(a, b)))
     elif div():
-        print("{:d} + {:d} = {:d}".format(a, b, div(a, b)))
-    add()
-    sub()
-    mul()
-    div()
+        print("{:d} / {:d} = {:d}".format(a, b, div(a, b)))
