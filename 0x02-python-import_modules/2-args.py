@@ -7,10 +7,10 @@ if __name__ == "__main__":
     arg_num = len(argv)
 
     if arg_num == 0:
-        print(f"{arg_num} arguments.")
+        print("{} arguments.".format(arg_num))
     elif arg_num == 1:
-        print(f"{arg_num} argument:")
-    elif arg_num == > 1:
-        print(f"{arg_num} arguments:")
+        print("{} argument:".format(arg_num))
+    elif arg_num  > 1:
+        print("{} arguments:".format(arg_num))
     for i in range(arg_num):
-        print(f"{i+1}: {argv[i]}")
+        print("{}: {}".format(i+1, argv[i]))
