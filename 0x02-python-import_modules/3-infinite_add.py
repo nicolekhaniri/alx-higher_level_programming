@@ -10,3 +10,5 @@ if __name__ == "__main__":
             sum += int(argv[i])
             total = sum
         print("{}".format(total))
+    else:
+        print("0")
