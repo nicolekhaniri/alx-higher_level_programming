@@ -3,11 +3,5 @@
 
 
 class Square:
-    """Represents square """
-
-    def __init__(self, size):
-        """ The square class
-        Args: size - representing the squares size
-        """
-
-        self.__size = size
+    """Does not do anything """
+    pass
