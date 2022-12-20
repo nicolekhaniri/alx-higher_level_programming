@@ -8,7 +8,7 @@ class Square:
         """ creates the private instance attribute size
         Args: size is initialized as size zero
         """
-        if size != type(int):
+        if not isinstance(size, int):
             raise TypeError("size must be an integer")
         elif size < 0:
             raise ValueError("size must be >= 0")
