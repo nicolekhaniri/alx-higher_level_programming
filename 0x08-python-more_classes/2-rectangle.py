@@ -42,7 +42,7 @@ class Rectangle:
     public instance method that returns area of rectangle
     """
     def area(self):
-        area = height * width
+        area = self.__height * self.__width
         return area
     """
     public instance method that returns perimeter of rectangle
@@ -51,6 +51,6 @@ class Rectangle:
         if width = 0 or height = 0:
             return 0
         else:
-            half = height + width
+            half = self.__height + se;f,__width
             peri = 2 * half
             return peri
