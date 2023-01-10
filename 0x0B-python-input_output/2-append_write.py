@@ -2,6 +2,7 @@
 
 """Creates a function to append text to the file"""
 
+
 def append_write(filename="", text=""):
     """
     filename and text is free to accept parameters
@@ -13,5 +14,5 @@ def append_write(filename="", text=""):
         The number of characters appended
     """
     with open(filename, 'a', encoding="utf-8") as new:
-        num_char = new.append(text)
+        num_char = new.write(text)
         return num_char
