@@ -6,5 +6,11 @@ import json
 
 
 def to_json_string(my_obj):
+    """
+    Args:
+        my_obj: Python object
+    Returns:
+        json representation of object
+    """
     new = json.dumps(my_obj)
     return new
