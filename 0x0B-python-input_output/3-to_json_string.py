@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 
+"""Import JSON"""
+
+
 import json
 
 """Function to return json representation of an object"""
