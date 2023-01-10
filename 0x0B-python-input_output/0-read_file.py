@@ -2,6 +2,7 @@
 
 """Create the function to read file"""
 
+
 def read_file(filename=""):
     """
     Args:
