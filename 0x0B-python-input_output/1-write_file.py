@@ -2,6 +2,7 @@
 
 """Create a function to write in file"""
 
+
 def write_file(filename="", text=""):
     """
     The file name and text is free to accept parameters
@@ -11,6 +12,6 @@ def write_file(filename="", text=""):
     Retrun:
         The number of characters added
     """
-    with open(filename, w, encoding="utf-8") as file:
+    with open(filename, 'w', encoding="utf-8") as file:
         num_char = file.write(text)
         return num_char
