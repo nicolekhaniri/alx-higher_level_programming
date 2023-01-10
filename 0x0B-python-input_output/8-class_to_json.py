@@ -1,6 +1,12 @@
 #!/usr/bin/python3
 import json
 
+"""returns dictioary description"""
+
+
 def class_to_json(obj):
-    return self.__dict__
+    """
+    returns dictionary description
+    """
+    return obj.__dict__
 
