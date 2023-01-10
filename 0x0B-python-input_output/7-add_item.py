@@ -12,5 +12,4 @@ if __name__ = "__main__":
         existing_file = load_from_json_file(filename)
     except FileNotFoundError:
         existing_file = []
-    new_file = existing_file + argv[:1]
-    save_to_json_file(new_file, filename)
+    save_to_json_file(existing_file +argv[:1], filename)
