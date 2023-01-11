@@ -9,7 +9,6 @@ class BaseGeometry:
     The class has a function public instance method that raises an exception
     """
 
-
     def area(self):
 
         """
