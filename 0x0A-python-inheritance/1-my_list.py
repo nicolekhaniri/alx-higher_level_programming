@@ -7,4 +7,4 @@ class MyList(list):
         """
         Prints the list and sorts in accending order
         """
-        print(sort(self))
+        print(sorted(self))
