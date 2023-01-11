@@ -4,4 +4,9 @@
 
 
 class BaseGeometry:
+
+    """
+    Pass because it is empty
+    """
+
     pass
